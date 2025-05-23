@@ -19,25 +19,25 @@
 
 project-root/
 │
-├── index.html
-├── index.js
-├── Player.js
-├── Ground.js
-├── BalliController.js
-├── Score.js
-├── Ball.js
-├── /images/
-│   ├── logo_lfc_no_bck.png
-│   ├── logo_lfc_run_1.png
-│   ├── logo_lfc_run_2.png
-│   ├── logo_lfc_end.png
-│   ├── world_cup_ball.png
-│   ├── gold_ball.jpg
-│   ├── bulk_balls.png
-│   ├── logo_lfc.png
-│   ├── stadium.png
-│   └── running-track.jpg
-└── README.md
+├── index.html  \
+├── index.js  \
+├── Player.js  \
+├── Ground.js  \
+├── BalliController.js  \
+├── Score.js  \
+├── Ball.js  \
+├── /images/  \
+│   ├── logo_lfc_no_bck.png  \
+│   ├── logo_lfc_run_1.png  \
+│   ├── logo_lfc_run_2.png  \
+│   ├── logo_lfc_end.png  \
+│   ├── world_cup_ball.png  \
+│   ├── gold_ball.jpg  \
+│   ├── bulk_balls.png  \
+│   ├── logo_lfc.png  \
+│   ├── stadium.png  \
+│   └── running-track.jpg  \
+└── README.md  \
 
 
 ## How to Play (you certainly know how to play dino, just pretend you don't and read, just, please ...)
