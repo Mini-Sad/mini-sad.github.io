@@ -67,8 +67,14 @@ OR, you can play the game at `https://mini-sad.github.io/` ( not sure it will be
 
 The game uses a dynamic scale ratio so it adjusts to different screen sizes (including mobile). Touch input is supported for mobile.
 
+## Preview
+## Preview
+
+![Gameplay Screenshot](images/lfc_running_preview.png)
+
+
 ## Credits
 
-Built with passion and motivation by Mini Sad, inspired by the T-Rex game developped byt the youtuber **coding with adam**.
+Built with passion and motivation by Mini Sad, inspired by the T-Rex game developped by the youtuber **coding with adam**.
 
 Images and animations are customized for an LFC-themed experience for the sake of my internship application ..
