@@ -1,93 +1,51 @@
 <!DOCTYPE html>
-	<html lang="fr">
-		<head>
-			 <meta name="viewport" content=
-"width=device-width, initial-scale=1.0">
-	         <meta charset="UTF-8" >
-			<title>Ma bande</title>
-         <link rel="stylesheet" href="Proj.css" >
-         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LFC Game</title>
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px;
+      }
+      body {
+        display: flex;
+        align-items: center;   
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
 
-    </head>
-		  <body>
-		    <div class="Header">
-		      <nav class="Header-nav">
-		        <a href="#Home"> HOME</a>
-		         <div class="menu">
-		           <div class="menuHr"></div>
-		           <div class="menuHr"></div>
-		           <div class="menuHr"></div>
-		         </div>
-		      </nav>
-		      <img src="img/bande_2.jpg" alt="une bande" width=100% id="Home">
-		    </div>
-		    <h2 class="bandName">THE BAND</h2>
-		    <p class="i"><i>We love music</i></p>
-		    <p class="prg"> We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-		    <div class="members">
-		      <p> Victoire ratée </p>
-		      <img src="img/dani.png" alt="Daniel" title="Dani" style="width:60%" height="60%" class="marge">
-		      <p> Guélé <p>
-		      <img src="img/Tago.png" alt="Bacho" title="Bacho" width="60%" class="marge">
-		      <p> Zimboni <p>
-		      <img src="img/firhaoun.png" alt="firhoun" title="Zimboni" width="60%" >
-		    </div>
-		    <div class="black">
-		        <div class="tour">
-		          <h2> TOUR DATES</h2>
-		          <p><i>Remember to book your tickets!</i></p>
-		        </div>
-		        <table class="tablet left">
-		          <tr> <td> Septembre <span class="cadre"> Sold out </span> </td> </tr>
-		          <tr> <td> Octobre <span class="cadre"> Sold out </span> </td> </tr>
-		          <tr> <td> November <span class="cercle"> 3 </span> </td> </tr>
-		        </table>
-		        <div class="city left">
-		          <img src="img/newyork.jpg" alt="New York" width="100%" >
-		          <div class="cities"> <h4> New York</h4>
-		          <p>Sat 27 Nov 2021</p>
-		          <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-		          <button type="submit">Buy Tickets</button> </div>
-		        </div>
-		         <div class="city left">
-		          <img src="img/paris.jpg" alt="New York" width="100%" >
-		          <div class="cities"> <h4> Paris</h4>
-		          <p>Sun 28 Nov 2021</p>
-		          <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-		          <button type="submit">Buy Tickets</button> </div>
-		        </div>
-		         <div class="city left">
-		          <img src="img/sanfran.jpg" alt="San Francisco" width="100%" >
-		          <div class="cities"> <h4> New York</h4>
-		          <p>Mon 29 Nov 2021</p>
-		          <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-		          <button type="submit">Buy Tickets</button> </div>
-		        </div>
-		    </div>
-		    <div class="contact" >
-		      <h2> CONTACT </h2>
-		      <p class="i"> <i>Fan? Drop a note!</i></p>
-		      <address>
-	 	        <p>Chicago, US<br>
-	 	        <a href="tel:+00 151515">Phone: +00 151515</a><br>
-	 	        <a href="mailto:mail@mail.com">Email: mail@mail.com</a></p>
-		      </address>
-		      <form class="form" action="#" >
-		        <input type="text" name="name"  placeholder="Name">
-		        <input type="Email" name="email"  placeholder="Email">
-		        <input type="text" name="message"  placeholder="Message" class="lInput">
-		        <input type="submit" value="SEND" class="but">
-		      </form>
-		    </div>
-		      <img class="footImg" src="img/map.jpg" alt="map" width="100%">
-		    <footer>
-		      <i class="fa fa-facebook-official w3-hover-opacity social"></i>
-		      <i class="fa fa-instagram social"></i>
-		      <i class="fa fa-snapchat social"></i>
-		      <i class="fa fa-pinterest-p social"></i>
-		      <i class="fa fa-twitter social"></i>
-		      <i class="fa fa-linkedin social"></i>
-		     
-		    <p>Powered by <a href="#Home">lorem@</a></p>
-		    </footer>
-		  </body>    
+        /* Prevent scrolling */    
+        user-select: none;
+        touch-action: none;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none; 
+        user-select: none;
+        outline: none;    
+        -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+      }
+      canvas {
+        border: 0.1px solid blue;
+      }
+      .links {
+        margin-bottom: 20px;
+        font-weight: normal;
+        font-size: 1.2em;
+      }
+      .separator {
+        color: blue; 
+      }
+    </style>
+    <script src="index.js" defer type="module"></script>
+  </head>
+  <body>
+    <div class="links">
+    </div>
+    <canvas id="game"></canvas>
+  </body>
+</html>
