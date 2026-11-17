@@ -3,8 +3,8 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Abdoul Kader
-middle_name: S.
+first_name: A.
+middle_name: Saad
 last_name: Yahaya
 # contact_note: >
 #   You can even add a little note about which of these is the best way to reach you.
@@ -14,9 +14,9 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 #   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 #   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 #   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll-theme, academic-website, portfolio-website, ENSIIE, computer-science, student, hpc, high-performance-computing # add your own keywords or leave empty
+keywords: jekyll-theme, academic-website, portfolio-website, ENSIIE, computer-science, student, hpc, high-performance-computing, iien # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: /assets/img/squared_mini_new_pp.jpg# ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://mini-sad.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
